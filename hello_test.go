@@ -7,3 +7,7 @@ func TestGreeting(t *testing.T) {
 		t.Error("Expected", "Hello, Caleb!", "; got:", Greeting("Caleb"))
 	}
 }
+
+func TestMain(t *testing.T) {
+	main()
+}
